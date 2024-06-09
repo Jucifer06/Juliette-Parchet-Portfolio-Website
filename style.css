@@ -52,13 +52,13 @@ header{
 }
 }
 
-header .navBar .menu-toggle {
+.menu-toggle {
   display: none;
   flex-direction: column;
   cursor: pointer;
 }
 
-header .navBar .menu-toggle .bar {
+.menu-toggle .bar {
   width: 25px;
   height: 3px;
   background-color: white;
