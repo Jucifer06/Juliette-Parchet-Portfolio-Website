@@ -6,50 +6,52 @@ body{
 
 /* ------------------------------------------------------------------------- */
 /* Navbar css starts here */
-header{
+header {
   z-index: 1000;
   position: fixed;
   width: 100%;
   top: 0;
 }
 
-.navBar{
+.navBar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; 
   align-items: center;
-  height: 100px;
+  padding: 0 20px;
+  height: 70px;
+  background-color: #695aa6; 
   color: white;
 }
 
-.name h1{
+.name h1 {
   font-size: 30px;
-  font-family: Leckerli One, sans-serif;
+  font-family: 'Leckerli One', sans-serif;
 }
 
-.menu ul{
+.menu ul {
   display: flex;
   font-size: 15px;
 }
 
-.menu ul li{
+.menu ul li {
   list-style: none;
-  margin: 20px;
-  font-family: Patrick Hand, cursive;
-  color: white;
+  margin: 0 20px; 
+  font-family: 'Patrick Hand', cursive;
 }
 
-.menu ul li a{
+.menu ul li a {
   text-decoration: none;
   color: white;
 }
 
-.bgColor{
+.bgColor {
   background-color: white;
   color: #695aa6;
   border: 1px solid rgba(222, 226, 230, 0.34);
-.menu ul li a{
-    color: #695aa6;
 }
+
+.bgColor .menu ul li a {
+  color: #695aa6;
 }
 
 .menu-toggle {
@@ -69,62 +71,63 @@ header{
 /* Media Queries */
 @media (max-width: 768px) {
   .menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    background-color: white;
-    border: 1px solid #695aa6;
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      background-color: white;
+      border: 1px solid #695aa6;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .menu ul {
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
   }
 
   .menu ul li {
-    margin: 10px 0;
+      margin: 10px 0;
   }
 
   .menu ul li a {
-    color: #695aa6;
+      color: #695aa6;
   }
 
   .menu-toggle {
-    display: flex;
+      display: flex;
   }
 
   .navBar.bgColor .menu {
-    background-color: white;
+      background-color: white;
   }
 
   .navBar.bgColor .menu-toggle .bar {
-    background-color: #695aa6;
+      background-color: #695aa6;
   }
 }
 
 @media (max-width: 480px) {
   .name h1 {
-    font-size: 24px;
+      font-size: 24px;
   }
 
   .menu ul li {
-    margin: 10px 0;
+      margin: 10px 0;
   }
 
   .menu ul li a {
-    font-size: 14px;
+      font-size: 14px;
   }
 }
 
 .menu .active {
   display: flex;
 }
+
 /* Navbar CSS ends here  */
 /* ------------------------------------------------------------------------------------- */
 /* hero section CSS starts here  */
