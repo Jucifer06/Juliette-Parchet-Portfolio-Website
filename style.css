@@ -17,7 +17,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #282828;
+  background-color: transparent;
   padding: 10px 0;
   transition: background-color 0.3s;
 }
@@ -121,7 +121,11 @@ header {
 }
 
 .header-scrolled .name h1 {
-  color: #282828; /* Change name color when scrolled */
+  color: #695aa6; /* Change name color when scrolled */
+}
+.header-scrolled .menu-toggle{
+  color: #695aa6; /* Change menu toggle color when scrolled */
+
 }
 
 /* Navbar CSS ends here  */
