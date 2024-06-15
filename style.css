@@ -121,6 +121,9 @@ header {
   color: #695aa6; /* Change name color when scrolled */
 }
 
+.header-scrolled .menu-toggle .bar {
+  background-color: #695aa6; /* Change toggle button color when header is scrolled */
+}
 
 /* Navbar CSS ends here  */
 /* ------------------------------------------------------------------------------------- */
