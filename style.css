@@ -6,13 +6,20 @@ body{
 
 /* ------------------------------------------------------------------------- */
 /* Navbar css starts here */
+/* Existing CSS */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 header {
   z-index: 1000;
   position: fixed;
   width: 100%;
   top: 0;
-  background:transparent;
+  background-color: #282828;
   padding: 10px 0;
+  transition: background-color 0.3s;
 }
 
 .navBar {
@@ -27,6 +34,8 @@ header {
 .name h1 {
   font-size: 30px;
   font-family: 'Leckerli One', sans-serif;
+  color: white;
+  transition: color 0.3s;
 }
 
 .menu ul {
@@ -105,6 +114,16 @@ header {
 .menu.active {
   display: flex;
 }
+
+/* New CSS */
+.header-scrolled {
+  background-color: #fff; /* Change header background when scrolled */
+}
+
+.header-scrolled .name h1 {
+  color: #282828; /* Change name color when scrolled */
+}
+
 /* Navbar CSS ends here  */
 /* ------------------------------------------------------------------------------------- */
 /* hero section CSS starts here  */
