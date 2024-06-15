@@ -11,16 +11,17 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  background-color: #282828;
+  padding: 10px 0;
 }
 
 .navBar {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
-  height: 70px;
-  background: transparent; 
+  height: 100px;
   color: white;
+  padding: 0 20px;
 }
 
 .name h1 {
@@ -35,23 +36,14 @@ header {
 
 .menu ul li {
   list-style: none;
-  margin: 0 20px; 
+  margin: 20px;
   font-family: 'Patrick Hand', cursive;
+  color: white;
 }
 
 .menu ul li a {
   text-decoration: none;
   color: white;
-}
-
-.bgColor {
-  background-color: white;
-  color: #695aa6;
-  border: 1px solid rgba(222, 226, 230, 0.34);
-}
-
-.bgColor .menu ul li a {
-  color: #695aa6;
 }
 
 .menu-toggle {
@@ -110,24 +102,9 @@ header {
   }
 }
 
-@media (max-width: 480px) {
-  .name h1 {
-      font-size: 24px;
-  }
-
-  .menu ul li {
-      margin: 10px 0;
-  }
-
-  .menu ul li a {
-      font-size: 14px;
-  }
-}
-
-.menu .active {
+.menu.active {
   display: flex;
 }
-
 /* Navbar CSS ends here  */
 /* ------------------------------------------------------------------------------------- */
 /* hero section CSS starts here  */
