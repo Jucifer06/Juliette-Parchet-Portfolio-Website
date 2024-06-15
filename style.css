@@ -123,7 +123,7 @@ header {
 .header-scrolled .name h1 {
   color: #695aa6; /* Change name color when scrolled */
 }
-.header-scrolled .menu-toggle{
+.header-scrolled .menu-toggle .bar{
   color: #695aa6; /* Change menu toggle color when scrolled */
 
 }
