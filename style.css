@@ -7,11 +7,6 @@ body{
 /* ------------------------------------------------------------------------- */
 /* Navbar css starts here */
 /* Existing CSS */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 header {
   z-index: 1000;
   position: fixed;
@@ -120,13 +115,12 @@ header {
   background-color: #fff; /* Change header background when scrolled */
 }
 
-.header-scrolled .name h1 {
+.header-scrolled .name h1,
+.header-scrolled .menu ul li a,
+.header-scrolled .menu ul li {
   color: #695aa6; /* Change name color when scrolled */
 }
-.header-scrolled .menu-toggle .bar{
-  color: #695aa6; /* Change menu toggle color when scrolled */
 
-}
 
 /* Navbar CSS ends here  */
 /* ------------------------------------------------------------------------------------- */
