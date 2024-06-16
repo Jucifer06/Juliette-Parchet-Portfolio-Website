@@ -143,18 +143,26 @@ header {
 
 .hero-container{
   z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
 .hero-container .up{
-  display: block;
   font-size: 50px;
   color: #212529;
   font-family: Leckerli One, sans-serif;
   margin-bottom: 5px;
 }
 
+.hero-container p{
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
 .hero-container .down{
-  display: block;
   font-size: 60px;
   color: #212529;
   font-family: Leckerli One, sans-serif;
