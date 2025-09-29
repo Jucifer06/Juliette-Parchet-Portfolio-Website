@@ -893,6 +893,26 @@ h1 span {
   .project .card .imgBox img { position: absolute; top: 0; left: 0; }
 }
 
+/* Tighter spacing between image → title → buttons */
+.card .content { padding: 0.5rem 0.625rem 0.75rem; }
+
+.card .content h3 {
+  margin: 0.25rem 0 0.5rem;    /* kill big default <h3> margins */
+  line-height: 1.2;
+}
+
+.card .content ul {
+  margin: 0.25rem 0 0.5rem;    /* small, consistent gap above/below buttons */
+}
+
+.card .content p {
+  margin: 0.5rem 0 0.75rem;    /* reduce paragraph spacing */
+}
+
+/* Ensure the image block controls its own height via aspect-ratio (no forced gaps) */
+.project .card .card-inner { height: auto; }
+.project .card .card-inner .box { height: auto; }
+
 
 /* project section CSS ends here  */
 /* --------------------------------------------------------------------- */
