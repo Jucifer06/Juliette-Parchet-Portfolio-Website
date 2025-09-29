@@ -73,7 +73,7 @@ header {
       top: 70px;
       right: 20px;
       background-color: white;
-      border: 1px solid #695aa6;
+      border: 1px solid #8d191d;
       border-radius: 8px;
       padding: 10px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@ header {
   }
 
   .menu ul li a {
-      color: #695aa6;
+      color: #8d191d;
   }
 
   .menu-toggle {
@@ -102,7 +102,7 @@ header {
   }
 
   .navBar.bgColor .menu-toggle .bar {
-      background-color: #695aa6;
+      background-color: #8d191d;
   }
 }
 
@@ -118,11 +118,11 @@ header {
 .header-scrolled .name h1,
 .header-scrolled .menu ul li a,
 .header-scrolled .menu ul li {
-  color: #695aa6; /* Change name color when scrolled */
+  color: #8d191d; /* Change name color when scrolled */
 }
 
 .header-scrolled .menu-toggle .bar {
-  background-color: #695aa6; /* Change toggle button color when header is scrolled */
+  background-color: #8d191d; /* Change toggle button color when header is scrolled */
 }
 
 /* Navbar CSS ends here  */
@@ -188,7 +188,7 @@ header {
 
 .hero-container .botton a{
   text-decoration: none;
-  color:#695aa6;
+  color:#8d191d;
 }
 
 .hero-container .botton img{
@@ -264,7 +264,7 @@ header {
 }
 
 .imgeffect, .text{
-  height: 400px;
+  height: 300px;
 }
 
 .text{
@@ -297,7 +297,7 @@ header {
   padding: 6px 12px;
   margin-top: 24px;
   border-radius: 50px;
-  background: #695aa6;
+  background: #8d191d;
   color: white;
   font-family: Patrick Hand, cursive;
   font-size: 17px;
@@ -402,7 +402,7 @@ header {
   width: 100%;
   max-width: 500px;
   background: transparent;
-  border: 1px solid #695aa6;
+  border: 1px solid #8d191d;
   border-radius: 16px;
   padding: 18px 36px;
 }
@@ -431,7 +431,7 @@ header {
   font-weight: 400;
   font-family: Patrick Hand, cursive;
   color: black;
-  border: 1px solid #695aa6;
+  border: 1px solid #8d191d;
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
@@ -624,7 +624,7 @@ h1 span {
   height: 16px;
   border-radius: 50%;
   border: 2px solid #F5F7FA;
-  background: #695aa6;
+  background: #8d191d;
   margin-top: 10px;
   z-index: 9999
 }
@@ -641,7 +641,7 @@ h1 span {
   margin-bottom: 5px;
   font-size: 25px;
   font-weight: 500;
-  color: #695aa6;
+  color: #8d191d;
 }
 
 .timeline-content span {
@@ -721,7 +721,7 @@ h1 span {
 .card:nth-child(1) .box .icon .iconBox,
 .card:nth-child(2) .box .icon .iconBox,
 .card:nth-child(3) .box .icon .iconBox {
-  background: #695aa6;
+  background: #8d191d;
 }
 
 .card ul {
@@ -736,7 +736,7 @@ h1 span {
 
 .card ul li {
   text-transform: uppercase;
-  background: #695aa6;
+  background: #8d191d;
   color: #282828;
   font-weight: 700;
   font-family: 'Patrick Hand', cursive;
@@ -991,7 +991,7 @@ body {
 .contact-info {
   flex: 1;
   padding: 40px;
-  background-color: #695aa6;
+  background-color: #8d191d;
   color: white;
 }
 
@@ -1041,7 +1041,7 @@ body {
 
 .contact-form button {
   padding: 10px;
-  background-color: #695aa6;
+  background-color: #8d191d;
   color: white;
   border: none;
   border-radius: 4px;
