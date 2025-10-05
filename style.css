@@ -359,7 +359,6 @@ header {
   display: block;
   width: 100%;
   margin-bottom: 30px;
-  background-color: #f9f9f9;
 }
 
 .Skills .container{
@@ -684,7 +683,6 @@ h1 span {
   justify-content: center;
   align-items: center;
   min-height: 90vh;
-  background-color: #f9f9f9;
   font-weight: 400;
 }
 
@@ -1016,7 +1014,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  background-color: #f9f9f9;
 }
 
 .contact-container {
