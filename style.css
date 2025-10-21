@@ -747,6 +747,17 @@ h1 span {
 .card ul li.github,
 .card ul li.site {
   color: white;
+  background: #8d191d;   /* base background */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect (applies to both GitHub & Site buttons) */
+.card ul li.github:hover,
+.card ul li.site:hover {
+  background: #a83236;   /* lighter/darker shade */
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .card .content {
