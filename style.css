@@ -1120,3 +1120,36 @@ body {
   }
 }
 /* contact section CSS ends here  */
+
+
+/* Buttons */
+/* Generic button hover effect */
+button,
+.text button,
+.contact-form button,
+.blogs .btn {
+  transition: all 0.3s ease; /* smooth hover */
+  cursor: pointer;          /* pointer cursor */
+}
+
+/* About section button */
+.text button:hover {
+  background: #a83236;        /* lighter/darker shade */
+  transform: scale(1.05);     /* slight grow */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Blogs section buttons */
+.blogs .btn:hover {
+  background: #8d191d;       /* filled style */
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Contact form button */
+.contact-form button:hover {
+  background-color: #a83236; 
+  transform: scale(1.03);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
